@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <span class="logo">facebook</span>
+
+        <form class="form-header">
+            <span class="label">Email ou telefone</span>
+            <input type="text" name="email">
+
+            <span class="label">Senha</span>
+            <input type="password" name="password">
+            <p class="forgot-password">Esqueceu a conta?</p>
+
+            <button class="login-btn">Entrar</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="align-content">
+                <div class="informative-text">
+                    <p>
+                        O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+                    </p>
+                    <img src="images/OBaVg52wtTZ.png" alt="Pessoas conectadas">
+                </div>
+
+                <form class="create-account">
+                    <div class="form-text">
+                        <h2>Abra uma conta</h2>
+                        <p>É rápido e fácil.</p>
+                    </div>
+
+                    <input class="name-input" type="text" name="name" placeholder="Nome">
+                    <input class="name-input" type="text" name="last-name" placeholder="Sobrenome">
+                    <input class="email-input" type="text" name="email" placeholder="Celular ou email">
+                    <input class="password-input" type="password" name="new-password" placeholder="Nova senha">
+
+                    <div class="select-birth">
+                        <p>Data de nascimento</p>
+                        <select id="selectDay"></select>
+                        <select id="selectMonth"></select>
+                        <select id="selectYear"></select>
+                    </div>
+
+                    <div class="selectGender">
+                        <p>Gênero</p>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Feminino</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Masculino</label>
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Personalizado</label>
+                    </div>
+
+                    <div class="policy">
+                        <p>
+                            Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>,
+                            <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>.
+                            Você podereceber notificações por SMS e pode cancelar isso quando quiser.
+                        </p>
+                    </div>
+
+                    <button class="register">Cadastre-se</button>
+                </form>
+            </div>
+        </div>
+
+        <form class="responsive-form">
+
+            <div class="align-content-responsive">
+                <h2>Logar no Facebook</h2>
+                <input type="text" name="email" placeholder="Celular ou email">
+                <input type="password" name="password" placeholder="Senha">
+                <button class="login-btn-responsive">Entrar</button>
+
+                <div class="divider-responsive"></div>
+                <button class="register">Criar nova conta</button>
+                <a class="forgot" href="#">Esqueceu sua senha?</a>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+
+        <div class="languages">
+            <ul>
+                <li class="selectLang selected">Português (Brasil)</li>
+                <li class="selectLang">English (US)</li>
+                <li class="selectLang">Español</li>
+                <li class="selectLang">Français (France)</li>
+                <li class="selectLang">Italiano</li>
+                <li class="selectLang">العربية</li>
+                <li class="selectLang">Deutsch</li>
+                <li class="selectLang">हिन्दी</li>
+                <li class="selectLang">中文(简体)</li>
+                <li class="selectLang">日本語</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="other-options">
+            <p>
+                <a href="#" class="selectOpt"> Cadastre-se</a>
+                <a href="#" class="selectOpt"> Entrar</a>
+                <a href="#" class="selectOpt"> Messenger</a>
+                <a href="#" class="selectOpt"> Facebook Lite</a>
+                <a href="#" class="selectOpt"> Watch</a>
+                <a href="#" class="selectOpt"> Pessoas</a>
+                <a href="#" class="selectOpt"> Páginas</a>
+                <a href="#" class="selectOpt"> Categorias de Página</a>
+                <a href="#" class="selectOpt"> Locais</a>
+                <a href="#" class="selectOpt"> Jogos</a>
+                <a href="#" class="selectOpt"> Marketplace</a>
+                <a href="#" class="selectOpt"> Grupos</a>
+                <a href="#" class="selectOpt"> Instagram</a>
+                <a href="#" class="selectOpt"> Local</a>
+                <a href="#" class="selectOpt"> Campanhas de arrecadação de fundos</a>
+                <a href="#" class="selectOpt"> Serviços</a>
+                <a href="#" class="selectOpt"> Sobre</a>
+                <a href="#" class="selectOpt"> Criar anúncio</a>
+                <a href="#" class="selectOpt"> Criar Página</a>
+                <a href="#" class="selectOpt"> Desenvolvedores</a>
+                <a href="#" class="selectOpt"> Carreiras</a>
+                <a href="#" class="selectOpt"> Privacidade</a>
+                <a href="#" class="selectOpt"> Cookies</a>
+                <a href="#" class="selectOpt"> Opções de anúncio</a>
+                <a href="#" class="selectOpt"> Termos</a>
+                <a href="#" class="selectOpt"> Ajuda</a>
+            </p>
+        </div>
+
+        <p class="copy">Victor Henrique &copy; 2020</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
