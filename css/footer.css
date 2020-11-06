@@ -1,0 +1,55 @@
+footer {
+    width: 100%;
+    height: 22%;
+    padding: 24px 170px;
+
+    position: absolute;
+    bottom: 0;
+
+    background-color: white;
+}
+
+footer .copy {
+    margin: 10px 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #737373;
+}
+
+.divider {
+    margin: 10px 4px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.other-options {
+    width: 100%;
+}
+
+.other-options p {
+    line-height: 25px;
+}
+
+.languages ul,
+.other-options ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.selectLang,
+.selectOpt {
+    margin: 0 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    color: #385898;
+    text-decoration: none;
+}
+
+.selectLang:hover,
+.selectOpt:hover {
+    text-decoration: underline;
+}
+
+.responsive-form {
+    display: none;
+}
